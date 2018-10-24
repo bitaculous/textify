@@ -13,3 +13,9 @@ Layout/TrailingBlankLines:
   Description: 'Checks trailing blank lines and final newline.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#newline-eof'
   Enabled: false
+
+# --- Linting ---
+
+Lint/ScriptPermission:
+  Description: 'Grant script file execute permission.'
+  Enabled: false

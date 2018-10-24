@@ -1,4 +1,5 @@
 #!/usr/bin/env thor
+# frozen_string_literal: true
 
 require 'bundler/setup'
 require 'bitaculous/thorify/task'
