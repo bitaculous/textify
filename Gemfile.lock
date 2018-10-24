@@ -1,0 +1,27 @@
+GIT
+  remote: https://github.com/bitaculous/thorify.git
+  revision: 5b5ed4dd1eacb8696b7e19e1932bc7bc6bac15ed
+  specs:
+    bitaculous-thorify (2.0.2)
+      pastel (~> 0.7, >= 0.7.2)
+      thor (~> 0.20, >= 0.20.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    equatable (0.5.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    thor (0.20.0)
+    tty-color (0.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitaculous-thorify!
+  thor (~> 0.20.0)
+
+BUNDLED WITH
+   1.16.6
