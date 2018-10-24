@@ -14,6 +14,17 @@ Installation
 
 2. Run `bundle` to install all dependencies with [Bundler]
 
+Usage
+-----
+
+### Tasks
+
+Generate text from CSV:
+
+```
+$ thor textify csv
+```
+
 Bug Reports
 -----------
 
