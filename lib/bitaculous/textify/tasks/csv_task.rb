@@ -42,7 +42,7 @@ module Bitaculous
                 block_files.each do |block_file|
                   template = Tilt.new(block_file)
 
-                  writer.puts template.render(self, row: row)
+                  writer.puts template.render(self, row: row, data: data)
                 end
               end
             end
