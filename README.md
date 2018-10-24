@@ -9,7 +9,7 @@ Installation
 1. Clone the repository and switch to it:
 
     ```
-    $ git clone git@dopag[at]bitbucket.org:dopag/webby.git webby
+    $ git clone git@github.com:bitaculous/textify.git webby
     ```
 
 2. Run `bundle` to install all dependencies with [Bundler]
