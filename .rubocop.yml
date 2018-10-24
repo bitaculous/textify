@@ -19,3 +19,9 @@ Layout/TrailingBlankLines:
 Lint/ScriptPermission:
   Description: 'Grant script file execute permission.'
   Enabled: false
+
+# --- Metrics ---
+
+Metrics/LineLength:
+  Description: 'Limit lines to 120 characters with 10 characters as buffer.'
+  Max: 130
