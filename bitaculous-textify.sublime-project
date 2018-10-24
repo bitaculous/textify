@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "bitaculous-textify",
+      "path": "./",
+      "folder_exclude_patterns": [
+        ".bundle",
+        "tmp"
+      ],
+      "file_exclude_patterns": [
+        ".keep"
+      ]
+    }
+  ]
+}

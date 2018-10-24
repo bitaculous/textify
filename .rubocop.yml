@@ -1,0 +1,15 @@
+# This is the configuration used to check the `Bitaculous::Textify` source code.
+
+# === Overrides ===
+
+# --- All Cops ---
+
+AllCops:
+  TargetRubyVersion: 2.4
+
+# --- Layout ---
+
+Layout/TrailingBlankLines:
+  Description: 'Checks trailing blank lines and final newline.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#newline-eof'
+  Enabled: false
