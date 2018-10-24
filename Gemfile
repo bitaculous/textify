@@ -10,3 +10,7 @@ gemspec
 # === Tasks ===
 
 gem 'bitaculous-thorify', github: 'bitaculous/thorify'
+
+# === Templates ===
+
+gem 'tilt', '~> 2.0', '>= 2.0.8'

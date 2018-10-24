@@ -7,8 +7,7 @@ module Bitaculous
   module Textify
     # The CLI class, inherited from `Thor`.
     class CLI < Thor
-      desc 'csv [COMMANDS]', 'CSV task'
-      subcommand 'csv', Bitaculous::Textify::Tasks::CsvTask
+      register Bitaculous::Textify::Tasks::CsvTask, 'csv', 'csv [COMMAND]', 'Generates text from CSV files'
     end
   end
 end
