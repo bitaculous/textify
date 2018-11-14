@@ -17,12 +17,16 @@ Installation
 Usage
 -----
 
+```
+$ ./bin/textify help
+```
+
 ### Tasks
 
 Generate text from CSV:
 
 ```
-$ thor textify csv
+$ ./bin/textify csv generate
 ```
 
 Bug Reports
