@@ -27,6 +27,7 @@ Generate text from CSV:
 
 ```
 $ ./bin/textify csv generate
+$ ./bin/textify csv help
 ```
 
 Bug Reports
